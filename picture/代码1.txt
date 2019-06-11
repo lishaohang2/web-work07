@@ -23,13 +23,10 @@
 		}
 		#head img{
 			position: relative;
-			top:5px;
-
-
-						
+			top:5px;						
 		}
 		#head p{
-			font:10px "΢���ź�";
+			font:10px "微软雅黑";
 
 		}
 		.right{
@@ -87,7 +84,7 @@
 			height: 48px;
 			background-color: #f83838;
 			color: #fff;
-			font-style: "΢���ź�"
+			font-style: "微软雅黑"
 		}
 		#right1{
 			position: relative;
@@ -111,7 +108,7 @@
 			position: relative;
 			left: 48px;
 			bottom: 59px;
-			font-style: "΢���ź�"
+			font-style: "微软雅黑"
 			font-size:1em;
 
 		}
@@ -122,9 +119,17 @@
 			margin: 0 auto;}
 		#dao{
 			border-style: solid;
-			border-width: 0px 0px 1px 0px;
+			border-width: 0px 0px 2px 0px;
+			border-bottom-color: #fd0304; 
 
 		}
+		.beijing{
+			border-radius: 5px;
+			color: #fff;
+			height: 28px;
+			background-color: #fd0304;
+		}
+
 		ul{
 			position: relative;
 
@@ -139,7 +144,7 @@
 			display: inline-block;
 			list-style-type:none; 
 			color: #000;
-			font: 14px '΢���ź�';
+			font: 14px '微软雅黑';
 		}
 		li>a{
 			padding: 3px 6px 3px 6px;
@@ -150,6 +155,7 @@
 		}
 		li>a:hover{
 			color: #fff;
+			border-radius: 5px;
 			background-color: #fd0304;
 			border-bottom: 0px solid #e8420a;
 		}
@@ -164,7 +170,7 @@
 			position: relative;
 			left: 168px;
 			top:24px;
-			font: 14px '΢���ź�';
+			font: 14px '微软雅黑';
 		}
 		.left1{
 			position: relative;
@@ -200,17 +206,22 @@
 
 
 		}
+		.left3 a{
+			text-decoration: none;
+			color: #000;
+
+		}
 		.left3 p{
 			border: 0px solid;
 			margin-bottom: 24px;
-			font: 14px '΢���ź�'
+			font: 14px '微软雅黑'
 
 
 		}
 		.left3 li:hover{
 			color: #ff9792;
 		}
-		.left4 {
+		.left4 a{
 			color: #ff2c18;
 		}
 		.right1{
@@ -236,7 +247,7 @@
 			position: relative;
 			right: 4px;
 			text-align: center;
-			font: 12px '΢���ź�';
+			font: 12px '微软雅黑';
 
 		}
 		.p1{
@@ -261,7 +272,7 @@
 		.bottom2 a{
 			text-decoration: none;
 			color: #fff;
-			font: 10px '΢���ź�'; 
+			font: 10px '微软雅黑'; 
 		}
 		.bottom3 {
 			border: 0px solid;
@@ -273,7 +284,7 @@
 
 			border: 0px solid;
 			color: #8b8b8b;
-			font: 10px '΢���ź�';
+			font: 10px '微软雅黑';
 			text-align: center;
 			padding-top: 24px;
 		}
@@ -288,86 +299,86 @@
 <body>
 	<div id="head">
 		<p>
-			�ҵ��ղ�  E��֮���ֻ���  <img src="images/qq.png"> 328203328
-		<span class="right">ɨ�����  ��ӭ����E��֮�ң�
-			<a href="#">���¼</a>|
-			<a href="#">ע��</a>
+			我的收藏  E族之家手机版  <img src="images/qq.png"> 328203328
+		<span class="right">扫描加入  欢迎来到E族之家，
+			<a href="#">请登录</a>|
+			<a href="#">注册</a>
 		</span>
 		</p>
 	</div>
 	<div id="centent">
 		<img src="images/logo.png">
 		<div>
-			<input type="text" value="������ؼ��ʣ�" ><p class="sou">����</p>
+			<input type="text" value="请输入关键词！" ><p class="sou">搜索</p>
 			
 		</div>
 		<div id="right1">
 			
-			<img src="images/market.png"> <p class="gou"> ���ﳵ(<span style="color: red">0</span>)��</p>
+			<img src="images/market.png"> <p class="gou"> 购物车(<span style="color: red">0</span>)件</p>
 			
 		</div>
 	</div>
 	<div id="dao">
 		<ul>
-			<li><a href="">��ҳ</a></li>
-			<li><a href="">E������</a></li>
-			<li><a href="">E�����</a></li>
-			<li><a href="">E�尮��</a></li>
+			<li><a href="">首页</a></li>
+			<li><a href="">E组生活</a></li>
+			<li><a href="">E族服务</a></li>
+			<li class="beijing"><a href="" style="color: #fff;">E族爱心</a></li>
 		</ul>
 	</div>
 	<div id="shipin">
 
 	
-		<p class="shipin1">��ǰλ�ã�E�尮�� > ʳƷ</p>
+		<p class="shipin1">当前位置：E族爱心 > 食品</p>
 		<div class="left1">
 			<img src="images/list.png">
-			<p class="left2">ȫ������</p>
+			<p class="left2">全部分类</p>
 		
 		</div>
 		<div class="left3">			
-				<p class="left4">>ʳƷ</p>
-				<p>>������Ʒ<p>							
+				<p class="left4"><a href="#">>食品</a></p>
+				<p><a href="">>生活用品</a><p>							
 		</div>
 		<div class="center1">
 		<div class="right1">
-			<img src="images/1.png" src="ͼƬ">
-			<p class="p1">��Ʒ����100g</p>
-			<p>�� 90.00</p>
+			<img src="images/1.png" src="图片">
+			<p class="p1">精品辣椒100g</p>
+			<p>¥ 90.00</p>
 		</div>
 		<div class="right1">
-			<img src="images/2.png" src="ͼƬ">
-			<p class="p1">�ؼ������3��</p>
-			<p>�� 90.00</p>
+			<img src="images/2.png" src="图片">
+			<p class="p1">特级百香果3斤</p>
+			<p>¥ 90.00</p>
 		</div>
 		<div class="right1">
-			<img src="images/3.png" src="ͼƬ">
-			<p class="p1">����ơ��500ml</p>
-			<p>�� 90.00</p>
+			<img src="images/3.png" src="图片">
+			<p class="p1">万威啤酒500ml</p>
+			<p>¥ 90.00</p>
 		</div>
 		<div class="right1">
-			<img src="images/4.png" src="ͼƬ">
-			<p class="p1">����ơ��500ml</p>
-			<p>�� 90.00</p>
+			<img src="images/4.png" src="图片">
+			<p class="p1">万威啤酒500ml</p>
+			<p>¥ 90.00</p>
 		</div>
 		<div class="right1">
-			<img src="images/1.png" src="ͼƬ">
-			<p class="p1">��Ʒ����100g</p>
-			<p>�� 90.00</p>
+			<img src="images/1.png" src="图片">
+			<p class="p1">精品辣椒100g</p>
+			<p>¥ 90.00</p>
 		</div>
 		<div class="right1">
-			<img src="images/2.png" src="ͼƬ">
-			<p class="p1">�ؼ������3��</p>
-			<p>�� 90.00</p>
+			<img src="images/2.png" src="图片">
+			<p class="p1">特级百香果3斤</p>
+			<p>¥ 90.00</p>
 		</div>
 		<div class="right1">
-			<img src="images/3.png" src="ͼƬ">
-			<p class="p1">����ơ��500ml</p>
-			<p>�� 90.00</p>
+			<img src="images/3.png" src="图片">
+			<p class="p1">万威啤酒500ml</p>
+			<p>¥ 90.00</p>
 		</div>
 		<div class="right1">
-			<img src="images/4.png" src="ͼƬ">
-			<p class="p1">����ơ��500ml</p>
-			<p>�� 90.00</p>
+			<img src="images/4.png" src="图片">
+			<p class="p1">万威啤酒500ml</p>
+			<p>¥ 90.00</p>
 		</div>
 		</div>
 	</div>
@@ -376,40 +387,40 @@
 	</div >
 	<div class="bottom1">
 	<div class="bottom2"> 
-	<p> <a href="">������·</a></p>
-	<p> <a href="">�ۺ�����</a></p>
-	<p> <a href="">��������</a></p>
-	<p> <a href="">������ʽ</a></p>
+	<p> <a href="">新手上路</a></p>
+	<p> <a href="">售后流程</a></p>
+	<p> <a href="">购物流程</a></p>
+	<p> <a href="">订购方式</a></p>
 	</div>
 	<div class="bottom2"> 
-	<p class="bottom6"> <a href="">���ͷ�ʽ</a></p>
-	<p> <a href="">������������</a></p>
-	<p> <a href="">����֧����ѯ</a></p>
-	<p> <a href="">֧����ʽ˵��</a></p>
+	<p class="bottom6"> <a href="">配送方式</a></p>
+	<p> <a href="">货到付款区域</a></p>
+	<p> <a href="">配送支付查询</a></p>
+	<p> <a href="">支付方式说明</a></p>
 	</div>
 	<div class="bottom2"> 
-	<p class="bottom6"> <a href="">����ָ��</a></p>
-	<p> <a href="">��������</a></p>
-	<p> <a href="">��������</a></p>
-	<p> <a href="">ע���»�Ա</a></p>
+	<p class="bottom6"> <a href="">购物指南</a></p>
+	<p> <a href="">常见问题</a></p>
+	<p> <a href="">订购流程</a></p>
+	<p> <a href="">注册新会员</a></p>
 	</div>
 	<div class="bottom2"> 
-	<p class="bottom6"> <a href="">������·</a></p>
-	<p> <a href="">�ۺ�����</a></p>
-	<p> <a href="">��������</a></p>
-	<p> <a href="">������ʽ</a></p>
+	<p class="bottom6"> <a href="">新手上路</a></p>
+	<p> <a href="">售后流程</a></p>
+	<p> <a href="">购物流程</a></p>
+	<p> <a href="">订购方式</a></p>
 	</div>
 	<div class="bottom2"> 
-	<p class="bottom6"> <a href="">�ۺ����</a></p>
-	<p> <a href="">�˻���ԭ��</a></p>
-	<p> <a href="">�ۺ������</a></p>
-	<p> <a href="">��������</a></p>
+	<p class="bottom6"> <a href="">售后服务</a></p>
+	<p> <a href="">退换货原则</a></p>
+	<p> <a href="">售后服务保障</a></p>
+	<p> <a href="">换货流程</a></p>
 	</div>
 	</div>
 	<div class="bottom3">
 		<div class="bottom4">
-		<p class="bottom5">E������ | �Ӽ�ά�ޱ��� | ס���Ż���Ϣ | ���н��� | E�� | E�尮�� | �����̳�</p>
-		<p class="bottom5">@ 2017-2018 E��֮�� ��Ȩ���У�����������Ȩ���� ICP����֤��ţ���ICP��1/17127392��</p>
+		<p class="bottom5">E族生活 | 居家维修保养 | 住宿优惠信息 | 出行接送 | E族活动 | E族爱心 | 积分商城</p>
+		<p class="bottom5">@ 2017-2018 E族之家 版权所有，并保留所有权利。 ICP备案证书号，粤ICP备1/17127392号</p>
 		</div>
 	</div>
 </body>
